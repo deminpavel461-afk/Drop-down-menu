@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Выпадающее меню</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="content">
+	<header class="header">
+		<a href="#" class="header__logo">PULSE.</a>
+		<nav class="header__nav">
+			<ul class="header__list">
+				<li class="header__item">
+					<a href="#" class="header__link">Пространство</a>
+				</li>
+				<li class="header__item">
+					<a href="#" class="header__link">Проекты</a>
+				</li>
+				<li class="header__item">
+					<a href="#" class="header__link">Команды</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="header__ifno">
+			<button class="header__btn" data-dropdown-btn>
+				<img src="img/avatar.png" alt="Антон" class="header__avatar">
+				Антон
+			</button>
+			<div class="dropdown" data-dropdown>
+				<div class="dropdown_top">
+					<img src="img/avatar.png" alt="Антон Смирнов">
+					<div class="dropdown__text">
+						<div class="dropdown__name">Антон Смирнов</div>
+						<div class="dropdown__position">Креативный директор</div>
+					</div>
+					<nav class="dropdown__nav">
+						<ul class="dropdown__list">
+							<li class="dropdown__item">
+								<a href="#" class="dropdown__link" data-dropdown-close>Профиль</a>
+							</li>
+							<li class="dropdown__item">
+								<a href="#" class="dropdown__link" data-dropdown-close>Уведомления
+									<div class="dropdown__count">8</div>
+								</a>
+							</li>
+							<li class="dropdown__item">
+								<a href="#" class="dropdown__link" data-dropdown-close>Внешнийй вид</a>
+							</li>
+							<li class="dropdown__item">
+								<a href="#" class="dropdown__link" data-dropdown-close>Оплата</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="dropdown__logout" data-dropdown-close>Выйти</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="hero__text">
+				<h1>Твори без лимитов</h1>
+				<p class="hero__descr">Идеи заслуживают смелого воплощения. Сотрудничайте со своей командой, черпайте вдохновение и выполняйте творческую работу быстрее.</p>
+				<a href="#" class="hero__link">Начать проект</a>
+			</div>
+			<div class="hero__items">
+				<div class="hero__item">
+					<div class="hero__digit">
+						52
+					</div>
+					Активных задач
+				</div>
+				<div class="hero__item">
+					<div class="hero__digit">
+						18
+					</div>
+					Членов команды
+				</div>
+				<div class="hero__item">
+					<div class="hero__digit">
+						92%
+					</div>
+					Еженедельных целей закрыто
+				</div>
+			</div>
+		</section>
+	</main>
+	</div>
+</body>
+</html>
